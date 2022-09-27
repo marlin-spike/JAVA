@@ -1,4 +1,4 @@
-# JAVA.sir
+# JAVA
 
 ---
 ---
