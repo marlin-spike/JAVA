@@ -17,6 +17,7 @@ public static void main (String args[])
 		p1.GetData(f_no ,s_no);
 		p1.powerOf();
 		p1.printdata();
+		sn.close();
 		
 	}
 }

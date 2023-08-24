@@ -5,7 +5,7 @@ class Prime
 public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		int no, re, flag ;
+		int no, flag ;
 		System.out.print("Enter a no : ");
 		no = sc.nextInt();
 		
@@ -26,6 +26,7 @@ public static void main(String args[])
 				System.out.print(i + " ");
 			}			
 		}
+		sc.close();
 	}
 }
 

@@ -40,5 +40,7 @@ System.out.print("\n\n");
 			small++;
 		}while(small <='z');
 
+		sn.close();
+
 	}
 }

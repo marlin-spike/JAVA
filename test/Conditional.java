@@ -4,7 +4,7 @@ class Conditional
 {
 public static void main(String args[])
 	{	
-		int i , m1 ,m2 , m3 ;
+		int m1 ,m2 , m3 ;
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.print("mark of M1 : ");
@@ -43,6 +43,6 @@ public static void main(String args[])
 			System.out.print("He Fail with "+per+ "%"+" ...");
 		}
 
-		
+		scan.close();
 	}
 }

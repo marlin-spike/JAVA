@@ -4,7 +4,7 @@ class Fibonacci
 {
 public static void main (String args[])
 {
-	long no, fno=0 , sno= 1, tno, b , i;
+	long no, fno=0 , sno= 1, tno, i;
 	Scanner scan = new Scanner(System.in);
 	
 	System.out.print("Enter a number : ");
@@ -18,8 +18,6 @@ public static void main (String args[])
 		sno = tno;
 
 	}
+	scan.close();
 }
-
-
-
 }
